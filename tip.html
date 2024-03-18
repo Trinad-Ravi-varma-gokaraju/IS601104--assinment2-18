@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="input-group">
+            <label for="subtotal">Subtotal:</label>
+            <input type="number" id="subtotal" placeholder="Enter the amount of bill">
+        </div>
+        <div class="input-group">
+            <label for="tipPercentage">Tip Percentage:</label>
+            <input type="number" id="tipPercentage" placeholder="Enter the tip percentage">
+        </div>
+        <button id="calculateBtn">Calculate Total</button>
+        <div id="totalAmount"></div>
+    </div>
+
+    <script src="tip.js"></script>
+</body>
+</html>
